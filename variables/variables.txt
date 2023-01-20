@@ -1,0 +1,22 @@
+//VARIABLES:
+//there are different types of variables.for example:
+//int- stores integers (whole numbers), such as 123 or -123
+//float32- stores floating point numbers, with decimals, such as 19.99 or -19.99
+//string - stores text, such as "Hello World". String values are surrounded by double quotes
+//bool- stores values with two states: true or false
+
+// Declaring (Creating) Variables:
+// With the "var" keyword  ,   With the "":=" sign
+// ----------------------------------------------->
+// Variable Declaration With Initial Value :
+// If the value of a variable is known from the start,
+// you can declare the variable and assign a value to it on one line.
+// ----------------------------------------------->
+// Variable Declaration Without Initial Value:
+// all variables are initialized. So, if you declare a variable without an initial value,
+// its value will be set to the default value of its type.
+// ---------------------------------------------->
+// Value Assignment After Declaration::
+// It is possible to assign a value to a variable after it is declared. This is helpful for cases the value is not initially known.
+// ---------------------------------------------->
+// Since ":=" is used outside of a function, running the program results in an error.

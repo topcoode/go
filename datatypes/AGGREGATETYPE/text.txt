@@ -1,0 +1,13 @@
+>> To store a collection of data .
+ >>Such type of collection is stored in a program using an Array
+
+>>An array is a fixed-length sequence that is used to store homogeneous elements in the memory.
+
+>>Due to their fixed length array are not much popular like Slice in Go language
+
+>>In an array, you are allowed to store zero or more than zero elements in it
+
+>>The elements of the array are indexed by using the [] index operator with their zero-based position, which means the index of the first element is array[0] and the index of the last element is array[len(array)-1]
+
+
+

@@ -1,0 +1,29 @@
+package main
+
+import (
+	"fmt"
+	"net/http"
+)
+
+func main() {
+	//define routes
+	http.HandleFunc("/pink", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintf(w, "coping the data in webserver")
+	})
+	http.ListenAndServe("localhost:8000", nil)
+}
+
+/*
+//define routes
+
+http.Handlefunc("/greet",greet)
+
+//starting server
+log.Fatal(http.ListenAndServer("localhost:8000",nil))
+}
+
+func greet(w http.responsewriter, r *http.request){
+	fmt.fprint(w,"coping the data in webbrowser" )
+}
+https://sathishvj.medium.com/web-handlers-and-middleware-in-golang-2706c2ecfb75
+*/

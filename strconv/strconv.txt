@@ -1,0 +1,25 @@
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	var string string = "56.000"
+	convert, err := strconv.ParseFloat(string, 3)
+	if err != nil {
+		fmt.Println("", err)
+	}
+	fmt.Println(convert)
+}
+
+// string =============float
+// func main1() {
+// 	var float float32 = "sai"
+// 	convert1, err := strconv.FormatFloat(float)
+// 	if err != nil {
+// 		fmt.Printf("", err)
+// 	}
+// 	fmt.Println(convert1)
+// }

@@ -1,0 +1,14 @@
+// addition to two numbers by taking frm the usr
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Print("enter frist number:")
+	var frist int
+	fmt.Scanln(&frist)
+	fmt.Print("enter second number:")
+	var second int
+	fmt.Scanln(&second)
+	fmt.Println(frist + second)
+}
